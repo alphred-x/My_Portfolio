@@ -54,3 +54,27 @@ strong {
     color: #a6e3a1;
     font-size: 1.1rem;
 }
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #89b4fa;
+    object-fit: cover;
+    margin-bottom: 1rem;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.6rem 1.5rem;
+    background-color: #89b4fa;
+    color: #11111b;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #f38ba8;
+}
